@@ -21,3 +21,33 @@
     vertical-align: middle;
 }
 /*FINE HEADER*/
+/*MAIN*/
+/*SEZIONI*/
+.sezioni{
+    background-color: white;
+    height: 50px;
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 750px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.add-task{
+    text-decoration: none;
+    color: white;
+    background-color: #47adf1;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.add-section{
+    text-decoration: none;
+    color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+/*FINE SEZIONI*/
