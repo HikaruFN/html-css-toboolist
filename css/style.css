@@ -4,8 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*COMMON*/
 .body{
-    background-color: lightgray;
+    background-color: #f6f8f9;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*HEADER*/
 .header{
@@ -29,7 +31,7 @@
     width: 1024px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-right: 750px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -51,3 +53,89 @@
     border-width: 1px;
 }
 /*FINE SEZIONI*/
+/*TABELLE*/
+.sezione-liste{
+    background-color: white;
+    width: 1024px;
+    height: 800px;
+    margin: 1px auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 750px;
+}
+.titolo-lista{
+    font-size: large;
+    font-weight: bold;
+    color: #444851; 
+}
+.oggetto-lista{
+    list-style: none;
+    color: #444851;
+    padding-top: 10px;
+    padding-left: 70px;   
+}
+.simbolo-verde{
+    color: #7bcbb8;
+    border-color: #7bcbb8;   
+    border-style: solid; 
+    border-width: 1px;     
+    border-radius: 50%; 
+    padding: 1px;   
+}
+.simbolo-rosso{
+    color: #ea453b;
+    border-color: #ea453b;   
+    border-style: solid; 
+    border-width: 1px;     
+    border-radius: 50%; 
+    padding: 1px;  
+}
+.editorial{
+    color: white;
+    background-color: #45abe9;
+    border-radius: 10px;
+    border-width: 10px;
+    font-size: 10px;
+    padding: 7px;
+}
+.q1goals{
+    color: white;
+    background-color: #9c72e4;
+    border-radius: 10px;
+    border-width: 10px;
+    font-size: 10px;
+    padding: 7px;
+}
+.recruiting{
+    color: white;
+    background-color: #64c0a9;
+    border-radius: 10px;
+    border-width: 10px;
+    font-size: 10px;
+    padding: 7px;
+}
+.mobile{
+    color: white;
+    background-color: #f29e33;
+    border-radius: 10px;
+    border-width: 10px;
+    font-size: 10px;
+    padding: 7px;
+}
+.website{
+    color: white;
+    background-color: #d863a1;
+    border-radius: 10px;
+    border-width: 10px;
+    font-size: 10px;
+    padding: 7px;
+}
+.sales{
+    color: white;
+    background-color: #b0c926;
+    border-radius: 10px;
+    border-width: 10px;
+    font-size: 10px;
+    padding: 7px;
+}
+/*FINE TABELLE*/
